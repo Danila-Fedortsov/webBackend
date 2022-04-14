@@ -1,0 +1,10 @@
+body {
+    background-color: #d0e66f;
+    font-family: 'Franklin Gothic'
+}
+
+.box {
+    background-color: #d6e690;
+    width: 30%;
+    margin: auto
+}
