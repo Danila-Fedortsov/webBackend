@@ -33,7 +33,7 @@ else {
     $stmt = $db->prepare("SELECT * FROM users WHERE login = ?");
     $stmt->execute(array(
       $login
-    ));.
+    ));
     $user = $stmt->fetch();
 
     if ($pass == $user['pass']) {
