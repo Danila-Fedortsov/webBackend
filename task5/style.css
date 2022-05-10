@@ -1,0 +1,35 @@
+body {
+    background-color: #d0e66f;
+    font-family: 'Franklin Gothic';
+}
+
+label {
+    margin-bottom: 4px;
+    position: relative;
+    padding-left: 23px;
+    cursor: pointer;
+}
+
+#form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 430px;
+    height: 100%;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #383e1c;
+}
+
+.btn::after {
+    border-color: transparent transparent #383e1c #fff!important;
+}
+
+@media screen and (min-width: 426px) {
+    #form {
+        height: auto;
+        margin: 2em auto;
+    }
+}
