@@ -39,8 +39,6 @@ select {
 }
 
 .form {
-    -webkit-box-shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
-    box-shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
