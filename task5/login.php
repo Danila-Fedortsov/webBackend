@@ -25,7 +25,7 @@ else {
   $login = $_POST['login'];
   $pass =  hash('sha256', $_POST['pass'], false);
 
-  $db = new PDO('mysql:host=localhost;dbname=u41035', $db_user, $db_pass, array(
+  $db = new PDO('mysql:host=localhost;dbname=u41067', $db_user, $db_pass, array(
     PDO::ATTR_PERSISTENT => true
   ));
 
