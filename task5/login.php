@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
 <?php
 }
-else {.
+else {
   $login = $_POST['login'];
   $pass =  hash('sha256', $_POST['pass'], false);
 
