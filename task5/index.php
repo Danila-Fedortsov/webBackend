@@ -255,6 +255,6 @@ else {
         }
     }
 
-    setcookie('save', '1');.
+    setcookie('save', '1');
     header('Location: ./');
 }
