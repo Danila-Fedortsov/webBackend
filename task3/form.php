@@ -3,25 +3,25 @@
 header('Content-Type: text/html; charset=UTF-8');
 if (!empty($_POST)) {
 	if (empty($_POST["name"])) {
-		$errors[] = "*Обязательно";
+		$errors[] = "*поле имя обязательно";
 	}
 	if (empty($_POST["email"])) {
-		$errors[] = "*Обязательно";
+		$errors[] = "*поле  email обязательно";
 	}
 	if (empty($_POST["year"])) {
-		$errors[] = "*Обязательно";
+		$errors[] = "*поле год обязательно";
 	}
 	if (!isset($_POST["gender"])) {
-		$errors[] = "*Обязательно";
+		$errors[] = "*выбор пола обязателен";
 	}
 	if (!isset($_POST["numlimbs"])) {
-		$errors[] = "*Обязательно";
+		$errors[] = "*выбор конечностей обязателен";
 	}
 	if (!isset($_POST["super"])) {
-		$errors[] = "*Обязательно";
+		$errors[] = "*выбор суперсил обязателен";
 	}
 	if (empty($_POST["biography"])) {
-		$errors[] = "*Обязательно";
+		$errors[] = "*поле биография обязательно";
 	}
 } else {
 	$errors[] = "Неверные данные формы!";
