@@ -128,6 +128,10 @@
             <button name="btn" type="submit" class="btn button is-black is-outlined" value="ok">Отправить</button>
         </div>
     </div>
+
+    <div class="field is-grouped">
+        <a href="login.php">войти</a>
+    </div>
     
 </form>
 </body>
