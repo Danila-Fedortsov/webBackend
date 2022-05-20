@@ -179,7 +179,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         setcookie('contr_check_value', $_POST['contr_check'], time() + 30 * 24 * 60 * 60);
     }
 
-    if (!empty($errors)) {
+    if ($errors) {
         header('Location: index.php');
         exit();
     } else {
