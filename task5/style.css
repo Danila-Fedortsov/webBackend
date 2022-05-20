@@ -1,7 +1,6 @@
 body {
     background-color: #d0e66f;
     font-family: 'Franklin Gothic';
-    color: #333;
     padding: 10px;
     font-size: 11pt;
 }
@@ -54,7 +53,7 @@ container {
     margin-right: auto;
     position: relative;
     text-align: center;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: 'Franklin Gothic';
 }
 
 #footer {
@@ -63,5 +62,5 @@ container {
     margin-right: auto;
     position: relative;
     text-align: center;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: 'Franklin Gothic';
 }
