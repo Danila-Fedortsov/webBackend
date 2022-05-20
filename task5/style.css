@@ -1,35 +1,71 @@
 body {
     background-color: #d0e66f;
     font-family: 'Franklin Gothic';
+    color: #333;
+    padding: 10px;
+    font-size: 11pt;
 }
 
-label {
-    margin-bottom: 4px;
+h1 {
+    color: #a52a2a;
+    font-size: 24pt;
+    font-family: Georgia, Times, serif;
+    font-weight: normal;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 10px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    flex-direction: column;
+}
+
+container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.error {
+    border: 2px solid red;
+    margin: 5px;
+}
+
+.error_check {
+    text-decoration: underline 2px solid red;
+    margin: 5px;
+}
+
+.ok {
+    border: 2px solid green;
+}
+
+#messages {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    padding-left: 23px;
-    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
 }
 
-#form {
-    background-color: white;
-    padding: 30px;
-    border-radius: 5px;
-    max-width: 430px;
-    height: 100%;
-}
-
-.btn {
-    cursor: pointer;
-    background-color: #383e1c;
-}
-
-.btn::after {
-    border-color: transparent transparent #383e1c #fff!important;
-}
-
-@media screen and (min-width: 426px) {
-    #form {
-        height: auto;
-        margin: 2em auto;
-    }
+#footer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
 }
